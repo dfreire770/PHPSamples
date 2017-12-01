@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+				$("#color1").click(function(){
+					var v_color = "#FFFF00";
+					
+					$.post("insert.php",{color: v_color},
+						function(data){
+						
+							$("#resultado").html(data);
+						});
+				});
+				$("#color2").click(function(){
+					var v_color = "#FF6600";
+					
+					$.post("insert.php",{color: v_color},
+						function(data){
+						
+							$("#resultado").html(data);
+						});
+				});
+				$("#color3").click(function(){
+					var v_color = "#FF0000";
+					
+					$.post("insert.php",{color: v_color},
+						function(data){
+						
+							$("#resultado").html(data);
+						});
+				});
+			});
+		
+		</script>
+	</head>
+	<p><center> Sistema de Gestion de Alertas Cotopaxi</center>
+	<p><label> Elija el color de la Alerta</label>
+	<center>
+	<body>
+		<form>
+			
+			<input type="button" id= "color1" value="Amarilla" style="background-color: #FFFF00; height:200px;width:200px"; />
+			<input type="button" id= "color2" value="Naranja" style="background-color: #FF6600; height:200px;width:200px"/>
+			<input type="button" id= "color3" value="Roja" style="background-color: #FF0000; height:200px;width:200px"/>
+			<div id="resultado"></div>
+		</form>
+	</body>
+	</center>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rol>
+	<empleado>
+		<ci>1725697229</ci>
+		<cuenta>23165465</cuenta>
+		<valor>900</valor>
+	</empleado>
+	<empleado>
+		<ci>17564625142</ci>
+		<cuenta>26546465</cuenta>
+		<valor>800</valor>
+	</empleado>
+</rol>

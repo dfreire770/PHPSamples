@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<personas>
+<persona>
+	<nombre>Diego</nombre>
+	<telefono>3551059</telefono>
+</persona>
+<persona>
+	<nombre>Jose</nombre>
+	<telefono>3566458</telefono>
+</persona>
+<persona>
+	<nombre>Pedro</nombre>
+	<telefono>0999871562</telefono>
+</persona>
+</personas>

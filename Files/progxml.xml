@@ -1,0 +1,12 @@
+<rol>
+	<empleado>
+		<ci> 1720579232 </ci>
+		<cuenta> 2578965 </cuenta>
+		<valor> 9000 </valor>
+	</empleado>
+	<empleado>
+		<ci> 1720579441 </ci>
+		<cuenta> 2578854 </cuenta>
+		<valor> 200 </valor>
+	</empleado>
+</rol>

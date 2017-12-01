@@ -1,0 +1,14 @@
+<alumnos>
+    <alumno Nombre="Juan">
+		<apellido>Pacheco</apellido>
+		<celular>"0998745632"</celular>
+    </alumno>
+    <alumno Nombre="Jorgue">
+		<apellido>Prado</apellido>
+		<celular>"0995034264"</celular>
+    </alumno>
+    <alumno Celular="Josue">
+		<apellido>Carranza</apellido>
+		<celular>"0995691429"</celular>
+    </alumno>
+</alumnos>

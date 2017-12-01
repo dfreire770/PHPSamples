@@ -1,0 +1,33 @@
+<!-- Nombre programa: hola
+-->
+<html>
+	<head>
+		<title>Programa Hola</title>
+	</head>
+	
+	<body>
+		Ingrese su nombre:<br />
+		
+		<!-- Aqui creo el formulario-->
+		<form method="POST" action="programa.php">
+			<input type="text" name="nombre" /> <br />
+			<!-- br es salto de linea-->
+			<select name="opciones">
+				<option value ="1">UNO</option>
+				<option value ="2">DOS</option>
+				<option value ="3">TRES</option>
+			</select>
+			<!-- Salto de parrafo -->
+			<p>&nbsp;</p>
+			Otras cosas:<br />
+			<a href="http://www.google.com">Haga click aqui</a><br />
+			<a href="http://www.google.com"><img src="imagen.jpg"/></a><br />
+			<!-- Select -->
+			<!-- Radio -->
+			<input type="radio" name="opciones2" value="1">Opcion 1
+			<!-- Boton -->
+			<br /><input type="submit" value="Continuar" />
+			<input type="button" onclick="document.href='http://www.google.com'" value ="Haga click" />
+		</form>
+	</body>
+</html>
